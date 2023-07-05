@@ -4,14 +4,12 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { matchSorter } from "match-sorter";
 
-export default function assignment() {
+export default function Assignment() {
   const [data, setData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [dataPerpage, setDataPerPage] = useState(10);
   const [searchQuery, setSearchQuery] = useState("");
   const router = useRouter();
-  const [selectedNumber, setSelectedNumber] = useState(null); // New state variable
-
   const totalData = 5000;
   const totalPages = Math.ceil(totalData / dataPerpage);
   const [loading, setLoading] = useState(false);
