@@ -52,7 +52,9 @@ export default function Home() {
               </section>
             </div>
           </div>
-          {/* <section className={styles.second_page} data-scroll-section>
+          <section className={styles.second_page} data-scroll-section
+          data-scroll-speed="1"
+          >
             <div className={styles.left_div}>
               <section className={styles.resume}>
                 <p ref={LinkRef}>
@@ -67,7 +69,7 @@ export default function Home() {
             </div>
             <div className={styles.previous_works}>
               <img
-                src="https://images.pexels.com/photos/1167021/pexels-photo-1167021.jpeg?auto=compress&cs=tinysrgb&w=600  "
+                src="https://images.pexels.com/photos/1167021/pexels-photo-1167021.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt=""
               />
 
@@ -86,7 +88,7 @@ export default function Home() {
                 alt=""
               />
             </div>
-          </section> */}
+          </section>
         </main>
       </LocomotiveScrollProvider>
     </>
